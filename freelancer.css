@@ -5,7 +5,13 @@
  */
 
 body {
+    min-width: 350px;
     overflow-x: hidden;
+}
+
+nav {
+  min-width: 350px;
+  overflow-x: hidden;
 }
 
 p {

@@ -11,7 +11,7 @@ body {
 
 nav {
   min-width: 350px;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 p {

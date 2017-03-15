@@ -24,6 +24,14 @@
       .state('about', {
         url: '/about',
         templateUrl: 'views/about/index.html'
+      })
+      .state('login', {
+        url: '/login',
+        templateUrl: 'views/login/index.html'
+      })
+      .state('signup', {
+        url: '/signup',
+        templateUrl: 'views/signup/index.html'
       });
   }
 

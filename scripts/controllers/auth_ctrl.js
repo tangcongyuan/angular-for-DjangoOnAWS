@@ -1,8 +1,8 @@
 (function(){
   'use strict';
 
-  // var url = 'https://erictang.herokuapp.com';
-  var url = 'http://localhost:8000';
+  var url = 'https://erictang.herokuapp.com';
+  // var url = 'http://localhost:8000';
 
   angular.module('angular-app')
     .factory('authInterceptor', authInterceptor)

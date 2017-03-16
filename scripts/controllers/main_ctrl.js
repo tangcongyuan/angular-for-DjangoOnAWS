@@ -7,8 +7,8 @@
   // When not injecting $scope, must use Controller As syntax. Because that way
   // Angular will treat MainCtrl as construction function and MainCtrl will have
   // its own namespace, $scope.main, according to index.html file.
-  function MainCtrl(){
+  function MainCtrl(user, auth){
     var vm = this;
-    vm.text = "Text from MainCtrl";
+    user.getAccounts().then(function (res) { console.log(res); });
   }
 })();

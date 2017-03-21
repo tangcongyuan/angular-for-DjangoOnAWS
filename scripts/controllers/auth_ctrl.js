@@ -71,7 +71,7 @@
   function userService($http, API, auth) {
     var vm = this;
     vm.getAccounts = function() {
-      return $http.get(API + '/auth/')
+      return $http.get(API + '/auth/accounts.json')
     };
 
     // add authentication methods here
